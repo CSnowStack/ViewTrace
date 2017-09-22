@@ -1,0 +1,331 @@
+[[{
+"time":"3500.0",
+"name":".com.android.internal.policy.PhoneWindow$DecorView.onMeasure",
+"root":"(II)V",
+"simpleName":"PhoneWindow.java"
+}
+, {
+"time":"3343.0",
+"name":"..android.widget.FrameLayout.onMeasure",
+"root":"(II)V",
+"simpleName":"FrameLayout.java"
+}
+, {
+"time":"3116.0",
+"name":".....android.widget.LinearLayout.onMeasure",
+"root":"(II)V",
+"simpleName":"LinearLayout.java"
+}
+, {
+"time":"2849.0",
+"name":"..........android.widget.FrameLayout.onMeasure",
+"root":"(II)V",
+"simpleName":"FrameLayout.java"
+}
+, {
+"time":"2743.0",
+"name":".............android.widget.LinearLayout.onMeasure",
+"root":"(II)V",
+"simpleName":"LinearLayout.java"
+}
+, {
+"time":"2468.0",
+"name":"..................android.support.v7.widget.ContentFrameLayout.onMeasure",
+"root":"(II)V",
+"simpleName":"ContentFrameLayout.java"
+}
+, {
+"time":"2314.0",
+"name":"...................android.widget.FrameLayout.onMeasure",
+"root":"(II)V",
+"simpleName":"FrameLayout.java"
+}
+, {
+"time":"2167.0",
+"name":"......................android.widget.FrameLayout.onMeasure",
+"root":"(II)V",
+"simpleName":"FrameLayout.java"
+}
+, {
+"time":"1901.0",
+"name":".........................android.widget.TextView.onMeasure",
+"root":"(II)V",
+"simpleName":"TextView.java"
+}
+], [{
+"time":"56.0",
+"name":".....android.view.View.onMeasure",
+"root":"(II)V",
+"simpleName":"View.java"
+}
+], [{
+"time":"5244.0",
+"name":"..android.widget.FrameLayout.onMeasure",
+"root":"(II)V",
+"simpleName":"FrameLayout.java"
+}
+, {
+"time":"5229.0",
+"name":".com.android.internal.policy.PhoneWindow$DecorView.onMeasure",
+"root":"(II)V",
+"simpleName":"PhoneWindow.java"
+}
+], [{
+"time":"2330.0",
+"name":"......android.widget.LinearLayout.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"LinearLayout.java"
+}
+, {
+"time":"1949.0",
+"name":"...........android.widget.FrameLayout.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"FrameLayout.java"
+}
+, {
+"time":"1613.0",
+"name":"...............android.widget.LinearLayout.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"LinearLayout.java"
+}
+, {
+"time":"774.0",
+"name":"....................android.widget.FrameLayout.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"FrameLayout.java"
+}
+, {
+"time":"435.0",
+"name":"........................android.widget.FrameLayout.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"FrameLayout.java"
+}
+, {
+"time":"28.0",
+"name":"...........................android.support.v7.widget.AppCompatTextView.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"AppCompatTextView.java"
+}
+, {
+"time":"6.0",
+"name":"............................android.widget.TextView.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"TextView.java"
+}
+, {
+"time":"2.0",
+"name":".............................android.view.View.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"View.java"
+}
+], [{
+"time":"453.0",
+"name":"....................android.widget.FrameLayout.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"FrameLayout.java"
+}
+, {
+"time":"416.0",
+"name":"...............android.widget.LinearLayout.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"LinearLayout.java"
+}
+, {
+"time":"400.0",
+"name":"...........android.widget.FrameLayout.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"FrameLayout.java"
+}
+, {
+"time":"384.0",
+"name":"......android.widget.LinearLayout.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"LinearLayout.java"
+}
+], [{
+"time":"2642.0",
+"name":".com.android.internal.policy.PhoneWindow$DecorView.onMeasure",
+"root":"(II)V",
+"simpleName":"PhoneWindow.java"
+}
+, {
+"time":"2443.0",
+"name":"..android.widget.FrameLayout.onMeasure",
+"root":"(II)V",
+"simpleName":"FrameLayout.java"
+}
+, {
+"time":"2158.0",
+"name":".....android.widget.LinearLayout.onMeasure",
+"root":"(II)V",
+"simpleName":"LinearLayout.java"
+}
+, {
+"time":"1832.0",
+"name":"..........android.widget.FrameLayout.onMeasure",
+"root":"(II)V",
+"simpleName":"FrameLayout.java"
+}
+, {
+"time":"1701.0",
+"name":".............android.widget.LinearLayout.onMeasure",
+"root":"(II)V",
+"simpleName":"LinearLayout.java"
+}
+, {
+"time":"1366.0",
+"name":"..................android.support.v7.widget.ContentFrameLayout.onMeasure",
+"root":"(II)V",
+"simpleName":"ContentFrameLayout.java"
+}
+, {
+"time":"1168.0",
+"name":"...................android.widget.FrameLayout.onMeasure",
+"root":"(II)V",
+"simpleName":"FrameLayout.java"
+}
+, {
+"time":"966.0",
+"name":"......................android.widget.FrameLayout.onMeasure",
+"root":"(II)V",
+"simpleName":"FrameLayout.java"
+}
+, {
+"time":"615.0",
+"name":".........................android.widget.TextView.onMeasure",
+"root":"(II)V",
+"simpleName":"TextView.java"
+}
+], [{
+"time":"60.0",
+"name":".....android.view.View.onMeasure",
+"root":"(II)V",
+"simpleName":"View.java"
+}
+], [{
+"time":"100.0",
+"name":"..android.widget.FrameLayout.onMeasure",
+"root":"(II)V",
+"simpleName":"FrameLayout.java"
+}
+, {
+"time":"88.0",
+"name":".com.android.internal.policy.PhoneWindow$DecorView.onMeasure",
+"root":"(II)V",
+"simpleName":"PhoneWindow.java"
+}
+], [{
+"time":"543.0",
+"name":"......android.widget.LinearLayout.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"LinearLayout.java"
+}
+, {
+"time":"454.0",
+"name":"...........android.widget.FrameLayout.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"FrameLayout.java"
+}
+, {
+"time":"375.0",
+"name":"...............android.widget.LinearLayout.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"LinearLayout.java"
+}
+, {
+"time":"224.0",
+"name":"....................android.widget.FrameLayout.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"FrameLayout.java"
+}
+, {
+"time":"134.0",
+"name":"........................android.widget.FrameLayout.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"FrameLayout.java"
+}
+, {
+"time":"23.0",
+"name":"...........................android.support.v7.widget.AppCompatTextView.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"AppCompatTextView.java"
+}
+, {
+"time":"5.0",
+"name":"............................android.widget.TextView.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"TextView.java"
+}
+, {
+"time":"1.0",
+"name":".............................android.view.View.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"View.java"
+}
+], [{
+"time":"101.0",
+"name":"....................android.widget.FrameLayout.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"FrameLayout.java"
+}
+, {
+"time":"71.0",
+"name":"...............android.widget.LinearLayout.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"LinearLayout.java"
+}
+, {
+"time":"57.0",
+"name":"...........android.widget.FrameLayout.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"FrameLayout.java"
+}
+, {
+"time":"44.0",
+"name":"......android.widget.LinearLayout.onLayout",
+"root":"(ZIIII)V",
+"simpleName":"LinearLayout.java"
+}
+], [{
+"time":"29.0",
+"name":"......com.android.internal.policy.PhoneWindow$DecorView.onDraw",
+"root":"(Landroid/graphics/Canvas;)V",
+"simpleName":"PhoneWindow.java"
+}
+, {
+"time":"1.0",
+"name":".......android.view.View.onDraw",
+"root":"(Landroid/graphics/Canvas;)V",
+"simpleName":"View.java"
+}
+], [{
+"time":"306.0",
+"name":"...............................android.widget.TextView.onDraw",
+"root":"(Landroid/graphics/Canvas;)V",
+"simpleName":"TextView.java"
+}
+, {
+"time":"1.0",
+"name":"................................android.view.View.onDraw",
+"root":"(Landroid/graphics/Canvas;)V",
+"simpleName":"View.java"
+}
+], [{
+"time":"138.0",
+"name":"...............................android.widget.ImageView.onDraw",
+"root":"(Landroid/graphics/Canvas;)V",
+"simpleName":"ImageView.java"
+}
+, {
+"time":"1.0",
+"name":"................................android.view.View.onDraw",
+"root":"(Landroid/graphics/Canvas;)V",
+"simpleName":"View.java"
+}
+], [{
+"time":"2.0",
+"name":"...........android.view.View.onDraw",
+"root":"(Landroid/graphics/Canvas;)V",
+"simpleName":"View.java"
+}
+]]
