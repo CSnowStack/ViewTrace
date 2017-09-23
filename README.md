@@ -81,8 +81,8 @@ variants.all { variant ->
 - 在项目里新建 `captures`目录
 - 执行命令
 ```
-adb pull /storage/emulated/0/cqtrace.trace captures/你DebugTrace注解的方法所在类的名字(包括包名).trace
 //如csnowstack.viewtrace.MainActivity
+adb pull /storage/emulated/0/你DebugTrace注解的方法所在类的名字(包括包名).trace captures/cqtrace.trace
 
 ```
 - 在右边的`gradle`命令的`other`里先执行`AppOutPutOrder`再执行`AppFilterMethodOrder`
