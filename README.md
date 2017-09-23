@@ -7,6 +7,7 @@ https://github.com/CSnowStack/ViewTrace
 ## 抄了这些项目
 - http://www.jianshu.com/p/b25be692f885
 - http://www.jianshu.com/p/0fa8073fd144
+- http://blog.desmondyao.com/android-show-time/
 > 真的是抄的,你看完这两个项目也能写出来
 
 ## 效果图
