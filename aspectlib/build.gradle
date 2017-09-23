@@ -67,7 +67,7 @@ task AppOutPutOrder {
 }
 
 //过滤
-task AppFilterMethodOrder {
+task  {
     doLast {
 
         def capturesDirPath = project.getProjectDir().getParentFile().path + File.separator + "captures";
@@ -81,7 +81,6 @@ task AppFilterMethodOrder {
                 def filterFile = new File(capturesDirPath, orderFilterName)
 
                 List<TraceBean> arrays = new ArrayList<>()
-                List<List<TraceBean>> arraysSort = new ArrayList<>()
 
                 orderFile.write('')
                 it.eachLine { line ->
@@ -97,34 +96,34 @@ task AppFilterMethodOrder {
                 }
 
                 int allTraceSize = arrays.size()
-                for (int i = 0; i < allTraceSize; i ++) {
 
-                    int arraysSortSize=arraysSort.size()
-                    int arraysSortAllSize=0
-                    for(int j=0;j<arraysSortSize;j++){
-                        arraysSortAllSize+=arraysSort.get(j).size()
-                    }
+                List<TraceBean> arraysUseless = new ArrayList<>()
 
+                for(int j=0;j<allTraceSize;j++){
+                    TraceBean traceBean=arrays.get(j)
+                    if(traceBean.type.equals("ent")){
+                        for(int i=j;i<allTraceSize;i++){
+                            TraceBean current=arrays.get(i)
+                            if(arraysUseless.contains(current)){
+                                break
+                            }
+                            if(traceBean.name.equals(current.name)&&
+                                current.type.equals("xit")){
+                                traceBean.time=String.valueOf(
+                                        Double.valueOf(current.time)-Double.valueOf(traceBean.time)
+                                )
 
-                    if (!arrays.get(i).type.equals(arrays.get(i + 1).type)) {
-                        int size=i-arraysSortAllSize*2+1;
+                                arraysUseless.add(current)
+                                break
+                            }
 
-                        List<TraceBean> datas = new ArrayList<>(size)
-                        for(int j=0;j<size;j++){
-                            TraceBean data = arrays.get(j+i-size+1)
-                            data.time = String.valueOf(Double.valueOf(arrays.get(i+size-j).time) - Double.valueOf(data.time))
-                            datas.add(data)
                         }
-
-
-                        arraysSort.add(datas)
-                        i+=size
                     }
-
 
                 }
 
-                orderFile.write(arraysSort.toString())
+                arrays.removeAll(arraysUseless)
+                orderFile.write(arrays.toString())
 
 
             }
