@@ -10,19 +10,20 @@ https://github.com/CSnowStack/ViewTrace
 > 真的是抄的,你看完这两个项目也能写出来
 
 ## 效果图
+![order](https://github.com/CSnowStack/ViewTrace/blob/master/pics/pic_order.png)
 
+![filter](https://github.com/CSnowStack/ViewTrace/blob/master/pics/pic_filter.png)
 ## 其实并没有什么卵用
 
 ## 使用说明
 
 ### AspetcJ
 - `project`的`build.gradle`里增加
-> ```java
+```java
  classpath "org.aspectj:aspectjtools:$aspectjtools_version"
 ```
 - `import modeule aspectlib`
 - `app`的 `build.gradle`里增加代码
-
 ```java
 final def log = project.logger
 final def variants = project.android.applicationVariants
@@ -66,10 +67,11 @@ variants.all { variant ->
         }
     }
 }
+
 ```
 
 - 在需要查看耗时界面的`onResume`方法上加个`DebugTrace`注解
-> ```java
+```java
 @DebugTrace
 @Override protected void onResume() {
     super.onResume();
@@ -79,7 +81,6 @@ variants.all { variant ->
 - 编译运行(`需要读写SD卡的权限`)
 - 在项目里新建 `captures`目录
 - 执行命令
-
 ```
 adb pull /storage/emulated/0/cqtrace.trace captures/你DebugTrace注解的方法所在类的名字(包括包名).trace
 //如csnowstack.viewtrace.MainActivity
