@@ -17,7 +17,6 @@ https://github.com/CSnowStack/ViewTrace
 
 ## 使用说明
 
-### AspetcJ
 - `project`的`build.gradle`里增加
 ```java
  classpath "org.aspectj:aspectjtools:$aspectjtools_version"
