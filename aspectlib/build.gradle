@@ -67,7 +67,7 @@ task AppOutPutOrder {
 }
 
 //过滤
-task  {
+task AppFilterMethodOrder {
     doLast {
 
         def capturesDirPath = project.getProjectDir().getParentFile().path + File.separator + "captures";
